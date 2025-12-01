@@ -1,0 +1,9 @@
+name: broken-skill
+version: 1.0.0
+description: Has an invalid tag format.
+entrypoint: SKILL.md
+materials:
+  - path: SKILL.md
+    type: prompt
+tags:
+  - UPPERCASE_TAG

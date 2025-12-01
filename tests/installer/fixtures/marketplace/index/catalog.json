@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "entries": {
+    "example/hello-world": {
+      "version": "1.0.0",
+      "description": "A simple hello world skill for testing the installer.",
+      "tags": [
+        "hello",
+        "test"
+      ],
+      "categories": [
+        "development"
+      ],
+      "path": "skills/example/hello-world",
+      "manifest_hash": "sha256:c2ab1b59cdd744c50691d1bd5f66f2a585d3e79d94bac60f57c3a9cb5ea38045"
+    }
+  }
+}

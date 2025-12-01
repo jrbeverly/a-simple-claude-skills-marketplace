@@ -1,0 +1,7 @@
+name: broken-skill
+version: not-a-version
+description: Has an invalid version string.
+entrypoint: SKILL.md
+materials:
+  - path: SKILL.md
+    type: prompt

@@ -1,0 +1,17 @@
+name: broken-skill
+version: 1.0.0
+description: A skill with integrity problems.
+entrypoint: scripts/run.sh
+materials:
+  - path: SKILL.md
+    type: prompt
+    description: Primary skill instructions
+  - path: prompts/missing.md
+    type: prompt
+    description: This file does not exist on disk
+  - path: ../../escape.md
+    type: reference
+    description: Parent traversal attempt
+  - path: prompts/main.md
+    type: prompt
+    description: A valid material file

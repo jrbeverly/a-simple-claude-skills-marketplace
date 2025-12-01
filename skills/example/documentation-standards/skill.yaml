@@ -1,0 +1,35 @@
+name: documentation-standards
+version: 1.0.0
+description: Provides templates and conventions for consistent repository documentation including README, CODEMAP, ADRs, and CHANGELOG entries.
+entrypoint: SKILL.md
+
+materials:
+  - path: SKILL.md
+    type: prompt
+    description: Primary skill instructions for documenting a repository to project standards
+  - path: templates/readme.md
+    type: template
+    description: README.md template with project overview, quickstart, and further-reading sections
+  - path: templates/codemap.md
+    type: template
+    description: CODEMAP.md template documenting repository structure, technology stack, architecture patterns, and deviations
+  - path: templates/adr.md
+    type: template
+    description: Architecture Decision Record template with status, context, decision, rationale, trade-offs, and consequences
+  - path: templates/changelog-entry.md
+    type: template
+    description: CHANGELOG entry template following Keep a Changelog conventions with added, changed, deprecated, removed, fixed, and security sections
+  - path: examples/worked-repo.md
+    type: reference
+    description: Worked example showing all templates filled in for a fictional notification-service repository
+
+tags:
+  - documentation
+  - readme
+  - codemap
+  - adr
+  - changelog
+  - repository-standards
+
+categories:
+  - docs

@@ -1,0 +1,12 @@
+name: hello-world
+version: 1.0.0
+description: A simple hello world skill.
+entrypoint: SKILL.md
+materials:
+  - path: SKILL.md
+    type: prompt
+    description: Primary skill instructions
+tags:
+  - hello
+categories:
+  - development

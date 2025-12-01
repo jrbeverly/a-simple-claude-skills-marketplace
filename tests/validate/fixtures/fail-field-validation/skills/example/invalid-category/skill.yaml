@@ -1,0 +1,9 @@
+name: broken-skill
+version: 1.0.0
+description: Has an invalid category.
+entrypoint: SKILL.md
+materials:
+  - path: SKILL.md
+    type: prompt
+categories:
+  - not-a-category

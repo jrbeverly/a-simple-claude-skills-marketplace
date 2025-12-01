@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "entries": {
+    "example/code-review": {
+      "version": "1.2.0",
+      "description": "Reviews pull requests for correctness, security, and style issues.",
+      "tags": [
+        "ci",
+        "code-review",
+        "pull-requests",
+        "security"
+      ],
+      "categories": [
+        "maintenance",
+        "review"
+      ],
+      "path": "skills/example/code-review",
+      "manifest_hash": "sha256:9befd05a41cfe77576bc08966edfd59e5c57bd97f5e1f41cff46de67fea2996f"
+    },
+    "example/git-helpers": {
+      "version": "1.0.0",
+      "description": "Git utilities for automated branching, rebasing, and PR hygiene.",
+      "tags": [
+        "ci",
+        "git"
+      ],
+      "categories": [
+        "deployment"
+      ],
+      "path": "skills/example/git-helpers",
+      "manifest_hash": "sha256:cac5703961439620d2e9ffe3842f54f3cf6593474afb314c341711ba9f772c53"
+    }
+  }
+}

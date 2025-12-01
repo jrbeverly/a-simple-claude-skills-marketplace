@@ -1,0 +1,7 @@
+name: broken-skill
+version: 1.0.0
+description: Has an invalid material type.
+entrypoint: SKILL.md
+materials:
+  - path: SKILL.md
+    type: invalid-type

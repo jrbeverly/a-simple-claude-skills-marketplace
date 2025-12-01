@@ -1,0 +1,7 @@
+name: Invalid_Name
+version: 1.0.0
+description: Has an invalid name with underscores.
+entrypoint: SKILL.md
+materials:
+  - path: SKILL.md
+    type: prompt

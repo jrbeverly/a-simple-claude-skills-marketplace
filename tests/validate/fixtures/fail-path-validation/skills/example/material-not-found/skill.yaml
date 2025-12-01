@@ -1,0 +1,10 @@
+name: material-issue
+version: 1.0.0
+description: Material path does not exist on disk.
+entrypoint: SKILL.md
+materials:
+  - path: SKILL.md
+    type: prompt
+  - path: prompts/missing.md
+    type: prompt
+    description: This file does not exist

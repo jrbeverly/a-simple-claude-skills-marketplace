@@ -1,0 +1,31 @@
+name: planning
+version: 1.0.0
+description: Converts intent into a structured implementation plan with milestones, issues, and dependency maps.
+entrypoint: SKILL.md
+
+materials:
+  - path: SKILL.md
+    type: prompt
+    description: Primary skill instructions for producing a structured implementation plan
+  - path: templates/milestone-outline.md
+    type: template
+    description: Milestone outline template with phase, goal, files-to-touch, and dependencies columns
+  - path: templates/issue-template.md
+    type: template
+    description: Implementation issue template with context, approach, acceptance criteria, and definition of done
+  - path: templates/dependency-map.md
+    type: template
+    description: Dependency map skeleton showing task and phase ordering with blocking relationships
+  - path: examples/sample-plan.md
+    type: reference
+    description: Worked example showing all three templates filled in for a realistic feature
+
+tags:
+  - planning
+  - milestones
+  - issues
+  - dependencies
+  - implementation
+
+categories:
+  - planning

@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "entries": {
+    "example/code-review": {
+      "version": "1.0.0",
+      "description": "Reviews pull requests for correctness, security, and style issues.",
+      "tags": [
+        "code-review",
+        "correctness",
+        "pull-requests",
+        "security"
+      ],
+      "categories": [
+        "review"
+      ],
+      "path": "skills/example/code-review",
+      "manifest_hash": "sha256:2fc6c255731ed24e8fe6ba18ff41b275316e3ae064583d1944b83f6216dd0ed2"
+    },
+    "example/commit-conventions": {
+      "version": "1.0.0",
+      "description": "Establishes commit message and branch naming conventions using Conventional Commits.",
+      "tags": [
+        "commit-conventions",
+        "conventional-commits",
+        "git",
+        "hooks"
+      ],
+      "categories": [
+        "behaviours"
+      ],
+      "path": "skills/example/commit-conventions",
+      "manifest_hash": "sha256:404b26412af0979f79e18ed9e7dff844e803169de7292f64d8bec78a28464f34"
+    },
+    "example/documentation-standards": {
+      "version": "1.0.0",
+      "description": "Provides templates and conventions for consistent repository documentation including README, CODEMAP, ADRs, and CHANGELOG entries.",
+      "tags": [
+        "adr",
+        "changelog",
+        "codemap",
+        "documentation",
+        "readme",
+        "repository-standards"
+      ],
+      "categories": [
+        "docs"
+      ],
+      "path": "skills/example/documentation-standards",
+      "manifest_hash": "sha256:25c363a7b4b1bf16d4f45e8d274f1df9011da5121b43ed54f19252395bd090ca"
+    },
+    "example/planning": {
+      "version": "1.0.0",
+      "description": "Converts intent into a structured implementation plan with milestones, issues, and dependency maps.",
+      "tags": [
+        "dependencies",
+        "implementation",
+        "issues",
+        "milestones",
+        "planning"
+      ],
+      "categories": [
+        "planning"
+      ],
+      "path": "skills/example/planning",
+      "manifest_hash": "sha256:156728384fb92cc5b12b548815637833ea7da72ea4c44637325394970c1039a3"
+    }
+  }
+}

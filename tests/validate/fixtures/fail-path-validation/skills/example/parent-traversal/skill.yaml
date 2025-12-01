@@ -1,0 +1,10 @@
+name: path-traversal
+version: 1.0.0
+description: Contains parent traversal in material path.
+entrypoint: SKILL.md
+materials:
+  - path: SKILL.md
+    type: prompt
+  - path: ../../escape.md
+    type: reference
+    description: Parent traversal attempt

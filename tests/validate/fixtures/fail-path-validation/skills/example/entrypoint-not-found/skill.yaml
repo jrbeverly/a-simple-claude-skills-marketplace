@@ -1,0 +1,7 @@
+name: entrypoint-issue
+version: 1.0.0
+description: Entrypoint does not exist on disk.
+entrypoint: does-not-exist.sh
+materials:
+  - path: SKILL.md
+    type: prompt

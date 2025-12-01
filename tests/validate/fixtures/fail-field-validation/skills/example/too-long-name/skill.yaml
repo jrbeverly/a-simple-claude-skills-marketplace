@@ -1,0 +1,7 @@
+name: a-name-that-is-way-too-long-and-exceeds-the-sixty-four-character-maximum-allowed-length
+version: 1.0.0
+description: Name exceeds 64 characters.
+entrypoint: SKILL.md
+materials:
+  - path: SKILL.md
+    type: prompt

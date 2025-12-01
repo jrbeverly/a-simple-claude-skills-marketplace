@@ -1,0 +1,16 @@
+name: git-helpers
+version: 1.0.0
+description: Git utilities for automated branching, rebasing, and PR hygiene.
+entrypoint: run.sh
+
+materials:
+  - path: prompts/git.md
+    type: prompt
+    description: Git automation instructions
+
+tags:
+  - git
+  - ci
+
+categories:
+  - deployment

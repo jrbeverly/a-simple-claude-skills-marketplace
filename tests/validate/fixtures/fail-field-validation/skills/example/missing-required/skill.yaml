@@ -1,0 +1,6 @@
+name: broken-skill
+version: 1.0.0
+entrypoint: SKILL.md
+materials:
+  - path: SKILL.md
+    type: prompt

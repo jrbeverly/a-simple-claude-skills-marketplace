@@ -1,0 +1,29 @@
+name: many-tags
+version: 1.0.0
+description: Has too many tags.
+entrypoint: SKILL.md
+materials:
+  - path: SKILL.md
+    type: prompt
+tags:
+  - tag01
+  - tag02
+  - tag03
+  - tag04
+  - tag05
+  - tag06
+  - tag07
+  - tag08
+  - tag09
+  - tag10
+  - tag11
+  - tag12
+  - tag13
+  - tag14
+  - tag15
+  - tag16
+  - tag17
+  - tag18
+  - tag19
+  - tag20
+  - tag21

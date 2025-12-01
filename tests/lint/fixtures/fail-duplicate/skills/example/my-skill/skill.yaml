@@ -1,0 +1,8 @@
+name: my-skill
+version: 1.0.0
+description: A test skill.
+entrypoint: SKILL.md
+materials:
+  - path: SKILL.md
+    type: prompt
+    description: Primary skill instructions

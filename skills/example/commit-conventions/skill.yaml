@@ -1,0 +1,27 @@
+name: commit-conventions
+version: 1.0.0
+description: Establishes commit message and branch naming conventions using Conventional Commits.
+entrypoint: SKILL.md
+
+materials:
+  - path: SKILL.md
+    type: prompt
+    description: Primary skill instructions defining commit and branch conventions
+  - path: templates/commit-message-format.md
+    type: template
+    description: Conventional Commits message template with type, scope, and description fields
+  - path: templates/commit-msg-hook.sh
+    type: script
+    description: Runnable git commit-msg hook that validates messages against Conventional Commits
+  - path: examples/well-formed-commits.md
+    type: reference
+    description: Annotated examples of well-formed commit messages for common scenarios
+
+tags:
+  - commit-conventions
+  - conventional-commits
+  - git
+  - hooks
+
+categories:
+  - behaviours

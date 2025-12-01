@@ -1,0 +1,27 @@
+name: code-review
+version: 1.0.0
+description: Reviews pull requests for correctness, security, and style issues.
+entrypoint: SKILL.md
+
+materials:
+  - path: SKILL.md
+    type: prompt
+    description: Primary skill instructions and review methodology
+  - path: templates/review-checklist.md
+    type: template
+    description: Review checklist covering correctness, security, style, and test coverage
+  - path: templates/pr-comment.md
+    type: template
+    description: Structured PR review comment skeleton with summary and findings sections
+  - path: examples/sample-review.md
+    type: reference
+    description: Worked example showing a PR diff and the corresponding review
+
+tags:
+  - code-review
+  - pull-requests
+  - security
+  - correctness
+
+categories:
+  - review

@@ -1,0 +1,16 @@
+name: hello-world
+version: 1.0.0
+description: A simple hello world skill for testing the installer.
+entrypoint: run.sh
+
+materials:
+  - path: prompts/greet.md
+    type: prompt
+    description: A greeting prompt template
+
+tags:
+  - test
+  - hello
+
+categories:
+  - development

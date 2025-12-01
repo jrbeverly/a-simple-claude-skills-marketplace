@@ -1,0 +1,8 @@
+name: clean-skill
+version: 1.0.0
+description: A skill with an orphan file.
+entrypoint: SKILL.md
+materials:
+  - path: SKILL.md
+    type: prompt
+    description: Primary skill instructions

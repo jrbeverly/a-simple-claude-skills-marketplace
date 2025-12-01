@@ -1,0 +1,43 @@
+name: code-review
+version: 1.2.0
+description: Reviews pull requests for correctness, security, and style issues.
+entrypoint: run.sh
+
+materials:
+  - path: prompts/review.md
+    type: prompt
+    description: Main code review prompt with evaluation criteria
+  - path: prompts/summary.md
+    type: prompt
+    description: Generates a concise review summary
+  - path: scripts/pr-checks.sh
+    type: script
+    description: Automated checks for common PR issues
+  - path: templates/report.md
+    type: template
+    description: Review report template with variable placeholders
+
+tags:
+  - code-review
+  - pull-requests
+  - security
+  - ci
+
+categories:
+  - review
+  - maintenance
+
+homepage: https://github.com/example/code-review-skill
+license: MIT
+
+authors:
+  - name: Jane Doe
+    email: jane@example.com
+    url: https://example.com
+  - name: Dev Team
+    url: https://team.example.com
+
+dependencies:
+  - name: git-helpers
+    version: ">=1.2.0 <2.0.0"
+    repository: https://skills.example.com/catalog
